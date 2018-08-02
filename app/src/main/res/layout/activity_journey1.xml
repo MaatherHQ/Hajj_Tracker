@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.maather.hajj.journey1"
+
+    >
+
+        <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+</RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"></RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"></RelativeLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"></RelativeLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"></RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+        <CheckBox
+            android:id="@+id/checkBox7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="المسالخ"
+            android:layout_marginTop="158dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="12dp"
+            android:layout_marginEnd="12dp" />
+
+                <CheckBox
+                    android:id="@+id/muzdaliga"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/checkBox7"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignStart="@+id/checkBox7"
+                    android:layout_marginBottom="97dp"
+                    android:text="مزدلفة" />
+
+                <CheckBox
+                    android:id="@+id/checkBox4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox7"
+                    android:layout_marginEnd="37dp"
+                    android:layout_marginRight="37dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_toLeftOf="@+id/checkBox7"
+                    android:layout_toStartOf="@+id/checkBox7"
+                    android:text="منى" />
+
+                <CheckBox
+                    android:id="@+id/start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="31dp"
+                    android:onClick="onCheckboxClicked"
+                    android:text="البداية"
+                    android:layout_above="@+id/haram"
+                    android:layout_toLeftOf="@+id/checkBox4"
+                    android:layout_toStartOf="@+id/checkBox4"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginEnd="15dp" />
+
+                <CheckBox
+                    android:id="@+id/haram"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="29dp"
+                    android:onClick="onCheckboxClicked"
+                    android:text="الحرم المكي"
+                    android:layout_above="@+id/checkBox4"
+                    android:layout_toLeftOf="@+id/checkBox4"
+                    android:layout_toStartOf="@+id/checkBox4" />
+
+                <CheckBox
+                    android:id="@+id/checkBox5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/muzdaliga"
+                    android:layout_marginTop="14dp"
+                    android:layout_toLeftOf="@+id/checkBox4"
+                    android:layout_toStartOf="@+id/checkBox4"
+                    android:text="عرفات" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/ic_artboard" />
+
+        </RelativeLayout>
+
+</RelativeLayout>
+
